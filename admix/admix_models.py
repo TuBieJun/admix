@@ -464,7 +464,7 @@ def populations(model):
                 ('Kalash', '卡拉什人'),
                 ('Northeast Asian', '东北亚'),
                 ('West African', '西非')]
-    elif model == '13':
+    elif model == 'K13':
         return [('Siberian','西伯利亚'),
                 ('Amerindian','美国印第安人'),
                 ('West African','西非'),
