@@ -31,7 +31,8 @@ def models():
             'K14M1',
             'K18M4',
             'K25R1',
-            'MichalK25']
+            'MichalK25',
+            'K13']
 
 # population names for all models
 def populations(model):
@@ -463,6 +464,20 @@ def populations(model):
                 ('Kalash', '卡拉什人'),
                 ('Northeast Asian', '东北亚'),
                 ('West African', '西非')]
+    elif model == '13':
+        return [('Siberian','西伯利亚'),
+                ('Amerindian','美国印第安人'),
+                ('West African','西非'),
+                ('Palaeo African','古非洲'),
+                ('Southwest Asian','西南亚'),
+                ('East Asian','东亚'),
+                ('Mediterranean','地中海'),
+                ('Australasian','澳大利亚'),
+                ('Arctic','北极'),
+                ('West Asian','西亚'),
+                ('North European','北欧'),
+                ('South Asian','南亚'),
+                ('East African','东非')]
     else:
         print('Model does not exist!')
         return None
